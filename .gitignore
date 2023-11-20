@@ -1,0 +1,16 @@
+// Ignore node & playwright specific files
+.DS_Store
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+// Ignore script specific files
+urls.txt
+/processed_series/**
+/processed_episodes/**
+/node_modules/**
+/downloads/**
+/playwright-report/**
+/test-results/**
